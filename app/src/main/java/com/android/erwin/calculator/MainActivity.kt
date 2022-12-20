@@ -25,6 +25,7 @@ class MainActivity : AppCompatActivity() {
         btn_dot.setOnClickListener { appendClick(true, ".") }
 
         btn_plus.setOnClickListener { appendClick(false, "+") }
+        btn_minus.setOnClickListener { appendClick(false, "-") }
 
 
         btn_clear.setOnClickListener {
